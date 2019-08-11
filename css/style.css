@@ -1,0 +1,108 @@
+body {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2.5px; }
+  body hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0; }
+
+/* HEADER */
+.site-header .nav-item {
+  margin-left: 10px; }
+.site-header .nav-item:hover {
+  background-color: #4E648E;
+  cursor: pointer; }
+.site-header .navbar {
+  background-color: #152B55 !important; }
+.site-header .navbar-toggler {
+  border-radius: 0; }
+
+/* PRESENT SECTION */
+#present {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #4E648E;
+  color: aliceblue;
+  background-image: url("../img/computer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  #present #frame {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 182px;
+    padding-bottom: 182px;
+    border: 1px solid aliceblue; }
+  @media only screen and (max-width: 600px) {
+    #present {
+      padding-top: 85px;
+      padding-bottom: 85px; }
+      #present h2 {
+        font-size: 24px; } }
+
+#whatwedo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #7788AA;
+  color: white; }
+  #whatwedo h1 {
+    padding-bottom: 25px; }
+  #whatwedo .card {
+    background-color: #152B55;
+    border-radius: 0px;
+    border: 3px solid aliceblue; }
+  #whatwedo .card-img-top {
+    height: 250px; }
+
+#whyme {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #152B55;
+  color: white; }
+  #whyme img {
+    max-height: 300px;
+    padding-top: 10px; }
+  #whyme h1 {
+    padding-bottom: 25px; }
+
+#trust {
+  background-color: #4E648E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: aliceblue; }
+  #trust img {
+    max-height: 350px; }
+
+#location {
+  background-color: #152B55;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #location h1 {
+    padding-bottom: 25px; }
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #4E648E; }
+  #contact label {
+    color: aliceblue; }
+  #contact h1, #contact h2, #contact h3, #contact h4 {
+    color: aliceblue; }
+  #contact input, #contact textarea {
+    background-color: #152B55;
+    color: aliceblue; }
+  #contact ::placeholder {
+    color: aliceblue; }
+  #contact .btn {
+    background-color: #152B55;
+    border: 1px solid aliceblue; }
+
+footer {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: #152B55;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
