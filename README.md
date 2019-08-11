@@ -1,5 +1,6 @@
-# PC-Service-Theme
-Simple Bootstrap Theme for PC Service.
+# PC-Service-Template
+Simple Bootstrap Template for PC Service.
+Check the template here: https://szymon90452.github.io/PC-Service-Theme/
 
 ## Sections
 - Start
